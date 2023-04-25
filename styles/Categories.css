@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cards{
+    background-color: #E5E5E5;
+    margin-bottom: 100px;
+}
+.cards >h1{
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.row_1_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    /* margin: 5%; */
+}
+.cat_card{
+    height: 160px;
+    width: 250px;
+    background-color: #E8F3F3;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cat_card > i{
+        font-size: 50px;
+        color: #00AAA1;
+}
+
+
+
+.row_2_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 80px;
+
+}
+
+.card_cat{
+    background-color: #00AAA1;
+    height: 160px;
+    width: 250px;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+.card_cat >i{
+    font-size: 50px;
+}

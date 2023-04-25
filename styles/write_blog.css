@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.writting{
+        
+    background: #F2F8F7;
+  }
+
+  .dee{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: #00AAA1;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    left: 624px;
+    top: 150px;
+    padding: 5px;
+}
+
+.para{
+    font-size: 23px; 
+    margin-top: 20px;  
+    margin-left: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+  .write_on{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0%;
+}
+
+.con > h3{
+    color: #222222;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 15px;
+}
+
+.con{
+    text-align: center;
+    width: 473px;
+    margin-left: 480px;
+    top: 228px;
+}
+
+.con > p{
+    color: #555555;
+}
+
+.sub_btn{
+    background: #F2F8F7;
+    color: #00AAA1;
+    border: 1px solid  hsl(177, 72%, 37%);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.inner_card{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 20px;
+}
+  
+.finner_card > p{
+text-align: center;
+width: 469px;
+height: 92px;
+right: 235px;
+top: 864px;
+
+}
+.finner_card >h3{
+    text-align: center;
+}
+
+.sinner_card{
+    text-align: center;
+    width: 469px;
+    height: 92px;
+    left: 235px;
+    top: 864px;
+}
+.end{
+    left: 693px;
+    margin-top: 105px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+    
+}
+.end > p{
+color:#00AAA1;
+font-weight: 500;
+font-size: 15px;
+margin-top: 15px;
+margin-bottom: 80px;
+}

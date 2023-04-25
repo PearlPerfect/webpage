@@ -1,0 +1,202 @@
+
+
+.dee{
+    margin-top: 20px;
+    background-color: hsl(177, 72%, 37%);
+    color: white;
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    left: 624px;
+    top: 150px;
+}
+
+.para{
+    font-size: 20px; 
+    margin-top: 15px;  
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+img{
+    height: 20px;
+    margin: 0;
+}
+/** Contact page**/
+
+.Contact{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:0.5%;
+}
+
+
+
+.sign_up{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fcard{
+    padding: 5%;
+    justify-items: left;
+}
+.name, 
+.mail
+{
+    width: 15rem;
+    padding: 1%;
+    border-radius: 5px;
+    height: 2.5rem;
+    border: 1px solid hsla(182, 87%, 39%, 0.4) ;
+}
+
+    .msg{
+        width: 30rem;
+        margin: 2%;
+        padding: 1%;
+        border: 1px solid hsla(182, 87%, 39%, 0.4);
+        border-radius: 5px;
+        height: 10rem;
+    }
+    .subject{
+        width: 30rem;
+        margin: 2%;
+        padding: 1%;
+        border:1px solid;
+        border-radius: 5px;
+        height: 2.5rem;
+        border-color:hsla(182, 87%, 39%, 0.4)  ;
+    }
+
+    .btn{
+        width: 10rem;
+        height: 40px;
+        margin: 2%;
+        padding: 1%;
+        background-color: hsl(182, 74%, 23%); 
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+
+    /**Bottom Navigation bar**/
+
+    button{
+        background-color: hsl(182, 74%, 23%);
+        width: 8rem;
+        height: 40px;
+        margin: 2%;
+        border: none;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        color: white;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 15px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 5px;
+        height: 2px;
+}
+
+    .fa-facebook {
+        background: white;
+        color: rgba(148, 142, 142, 0.548);
+        border: 1px solid gray;
+        
+    }
+    .fa-twitter {
+        background: hsl(177, 72%, 37%);
+        color: white;
+        border: 1px solid gray;
+      }
+      
+      .fa-pinterest {
+        background: white;
+        color: rgba(148, 142, 142, 0.548);
+        border: 1px solid gray;
+      }
+      .fa-instagram {
+        background: white;
+        color: rgba(148, 142, 142, 0.548);
+        border: 1px solid gray;
+      }
+
+    
+
+      
+
+      /**Write On Page**/
+
+      
+
+
+/**FAQ PAGE**/
+
+/**Featured on page**/
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paraa{
+    font-size: 25px; 
+    margin-top: 0px; 
+    text-align: center;
+}
+.toop{
+    width: 650px;
+    height: fit-content;
+    margin: 25px;
+    text-align: justify;
+    color: hsl(120, 1%, 45%); 
+}
+
+.iconz{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    gap: 2.5%;
+    padding: 10%;
+}
+
+.dash{
+    text-align: center;
+}
+
+.btmCard{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    justify-content: space-around;
+}
+
+.right_hand_card{
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+}
+
+.left_hand_card{
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+}
+
+.des{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+img{
+    height: 160px;
+}
